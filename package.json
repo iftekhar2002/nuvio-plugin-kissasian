@@ -1,0 +1,26 @@
+{
+  "name": "nuvio-plugin-kissasian",
+  "version": "1.0.0",
+  "description": "Nuvio streaming scraper for Asian Dramas and Movies from kissasian.cam",
+  "main": "providers/kissasian.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js",
+    "serve": "node server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "nuvio",
+    "nuvio-plugin",
+    "kissasian",
+    "scraper",
+    "streaming",
+    "k-drama",
+    "asian-drama"
+  ],
+  "author": "Iftekhar",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}
