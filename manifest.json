@@ -1,0 +1,46 @@
+{
+  "name": "KissAsian Provider",
+  "version": "1.0.0",
+  "description": "Stream Asian Dramas and Movies directly from KissAsian (kissasian.cam)",
+  "author": "Iftekhar",
+  "scrapers": [
+    {
+      "id": "kissasian",
+      "name": "KissAsian",
+      "description": "Stream Asian Dramas and Movies in HD with English subtitles directly from kissasian.cam",
+      "version": "1.0.0",
+      "author": "Iftekhar",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/kissasian.js",
+      "url": "https://raw.githubusercontent.com/iftekhar2002/nuvio-plugin-kissasian/main/providers/kissasian.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4"
+      ]
+    }
+  ],
+  "providers": [
+    {
+      "id": "kissasian",
+      "name": "KissAsian",
+      "description": "Stream Asian Dramas and Movies in HD with English subtitles directly from kissasian.cam",
+      "version": "1.0.0",
+      "author": "Iftekhar",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/kissasian.js",
+      "url": "https://raw.githubusercontent.com/iftekhar2002/nuvio-plugin-kissasian/main/providers/kissasian.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": [
+        "mp4"
+      ]
+    }
+  ]
+}
